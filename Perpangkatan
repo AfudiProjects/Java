@@ -1,0 +1,13 @@
+package PASAFDI;
+
+public class PASno1 {
+	//coded by afdi kun
+	public static( void main(string[] args) {
+	   int nilaiI = 10;
+	   int nilaiJ = 2;
+	double hasil;
+		hasil = Math.pow(nilaiI, nilaiJ);
+		System.Out.println(hasil);
+	  }
+
+}
