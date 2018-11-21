@@ -1,13 +1,22 @@
-package PASAFDI;
-
-public class PASno1 {
-	//coded by afdi kun
-	public static( void main(string[] args) {
-	   int nilaiI = 10;
-	   int nilaiJ = 2;
-	double hasil;
-		hasil = Math.pow(nilaiI, nilaiJ);
-		System.Out.println(hasil);
-	  }
-
+package ulanganbos;
+import javax.swing.JOptionPane;
+public class Dcoder {
+    public static void main(String[] args) {
+      /*("PAS NO 1 AFDI P XIRPL2"); */
+      //Coded By AfdiKun
+      Dcoder();
+    }
+    
+     static void Dcoder(){
+        String inputNilai = JOptionPane.showInputDialog("Masukan Nilai :");
+        int nilai = Integer.parseInt(inputNilai);
+        
+        String inputPangkat = JOptionPane.showInputDialog("Input Pangkat");
+        int pangkat = Integer.parseInt(inputPangkat);
+        
+        int hasilPerpangkatan = (int) Math.pow(nilai, pangkat);
+        
+        
+        JOptionPane.showMessageDialog(null, hasilPerpangkatan, "Nilai dari " + nilai + "^" + pangkat, JOptionPane.INFORMATION_MESSAGE);
+    }
 }
